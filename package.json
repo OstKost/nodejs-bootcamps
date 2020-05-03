@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-bootcamps",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OstKost/nodejs-bootcamps.git",
+  "author": "Konstantin Ostrovskiy <web@ostkost.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server",
+    "prod": "NODE_ENV=production node server"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
